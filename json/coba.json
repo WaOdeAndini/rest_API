@@ -1,0 +1,32 @@
+[
+    {
+        "nama" : "Wa Ode Andini",
+        "umur" : 21,
+        "nim" : "2217020131",
+        "lulus" : true,
+        "hobby" : [
+            "traveling",
+            "reading",
+            "watching"
+        ],
+        "pembimbing" : {
+            "pembimbing 1" : "Haditya Prasetyo",
+            "pembimbing 2" : "M Teguh"
+        }
+    },
+    {
+        "nama" : "Rafa Riyandra",
+        "umur" : 17,
+        "nim" : "2222121277",
+        "lulus" : false,
+        "hobby" : [
+            "swimming",
+            "watching",
+            "traveling"
+        ],
+        "pembimbing" : {
+            "pembimbing 1" : "Ozzy Secio Riza",
+            "pembimbing 2" : "Raju Wandira"
+        }
+    }
+]
