@@ -202,8 +202,9 @@ $gambar3 = $gambar[2];
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Latihan menggunakan.</p>
+              <div class="card-body text-center">
+                <h5 class="card-title">Json</h5>
+                <p class="card-text">Latihan menggunakan json.</p>
               </div>
             </div>
           </div>
@@ -211,8 +212,9 @@ $gambar3 = $gambar[2];
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/2.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-body text-center">
+                <h5 class="card-title">Rest API</h5>
+                <p class="card-text">Menampilkan Data Menu Pizza dengan website sederhana.</p>
               </div>
             </div>
           </div>
@@ -220,8 +222,9 @@ $gambar3 = $gambar[2];
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/3.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-body text-center">
+                <h5 class="card-title">Public API</h5>
+                <p class="card-text">Menggunakan OMdb API untuk menampilkan daftar film dengan website sederhana.</p>
               </div>
             </div>
           </div>   
@@ -231,17 +234,18 @@ $gambar3 = $gambar[2];
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/4.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-body text-center">
+                <h5 class="card-title"> API Social Media</h5>
+                <p class="card-text">Menghubungkan Youtube dan Instagram menggunakan API untuk ditampilkan diwbsite Portfolio.</p>
               </div>
             </div>
           </div> 
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/5.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.
-                </p>
+              <div class="card-body text-center">
+                <h5 class="card-title">Portofolio</h5>
+                <p class="card-text">Menampilkan data diri sendiri dengan menggunakan API</p>
               </div>
             </div>
           </div>
@@ -249,8 +253,9 @@ $gambar3 = $gambar[2];
           <div class="col-md mb-4">
             <div class="card">
               <img class="card-img-top" src="img/thumbs/6.png" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="card-body text-center">
+                <h5 class="card-title">Rest Server</h5>
+                <p class="card-text">Latihan Membuat rest server menggunakan CodeIgniter.</p>
               </div>
             </div>
           </div>
