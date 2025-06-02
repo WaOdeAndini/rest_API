@@ -18,7 +18,7 @@ $channelName = $result['items'][0]['snippet']['title'];
 $subscriber = $result['items'][0]['statistics']['subscriberCount'];
 
 
-//Social Media
+//Social Media//
 
 //Latest video
 $urlLatestVideo = "https://www.googleapis.com/youtube/v3/search?key=AIzaSyCJ7RSk6KSO87fODvyETciYT2oTBAMwb5w&channelId=UCph_fzZPeWtrFWLbCjKouLA&maxResults=1&order=date&part=snippet";
@@ -35,14 +35,23 @@ $usernameIG = $result2['username'];
 $profilePictureIG = $result2['profile_picture_url'];
 $followersIG = $result2['followers_count'];
 
+
+
 //Instagram
 $resultGambar1 = get_Curl("https://graph.instagram.com/v22.0/18077478553477103?fields=media_url&access_token=IGAAJyc20YPZBRBZAE5Wanp1VkJXTWpzZADdESXFXSXlYMzBfN1duUXVOenRpSEJXcS00S2V1eWViVVZA5QUl3S29kV2pHeWVDeUQxZAlU5V0R0aThuc3hGbzA0NHRCRDY4eTVjVlEzZA2RDQWFmTnh5ZAU1pSVQ1TGNlMUJsNzVGSVphSQZDZD");
 $resultGambar2 = get_Curl("https://graph.instagram.com/v22.0/17904745434015289?fields=media_url&access_token=IGAAJyc20YPZBRBZAE5Wanp1VkJXTWpzZADdESXFXSXlYMzBfN1duUXVOenRpSEJXcS00S2V1eWViVVZA5QUl3S29kV2pHeWVDeUQxZAlU5V0R0aThuc3hGbzA0NHRCRDY4eTVjVlEzZA2RDQWFmTnh5ZAU1pSVQ1TGNlMUJsNzVGSVphSQZDZD");
 $resultGambar3 = get_Curl("https://graph.instagram.com/v22.0/18222944716173134?fields=media_url&access_token=IGAAJyc20YPZBRBZAE5Wanp1VkJXTWpzZADdESXFXSXlYMzBfN1duUXVOenRpSEJXcS00S2V1eWViVVZA5QUl3S29kV2pHeWVDeUQxZAlU5V0R0aThuc3hGbzA0NHRCRDY4eTVjVlEzZA2RDQWFmTnh5ZAU1pSVQ1TGNlMUJsNzVGSVphSQZDZD");
 
-$gambar1 = $resultGambar1['media_url'];
-$gambar2 = $resultGambar2['media_url'];
-$gambar3 = $resultGambar3['media_url'];
+
+$gambar = [
+  $resultGambar1['media_url'],
+  $resultGambar2['media_url'],
+  $resultGambar3['media_url']
+];
+
+$gambar1 = $gambar[0];
+$gambar2 = $gambar[1];
+$gambar3 = $gambar[2];
 
 
 
@@ -108,15 +117,19 @@ $gambar3 = $resultGambar3['media_url'];
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+          <div class="col-md-5 text-justify">
+            <p class="text-justify">
+            <p>Hallo, saya Andin dan saat ini saya sedang menjalani kehidupan sebagai mahasiswa di UIN Imam Bonjol Padang dengan jurusan Sistem Informasi Fakultas Sains dan Teknologi. Saya lahir di Timur Indonesia dan menetap di Barat Indonesia yaitu Padang Sumatera Barat. Saya lulus dari SMA Negeri 1 Silaut di Pesisir Selatan pada tahun 2022 dengan jurusan MIPA.
+            </p>
           </div>
-          <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+          <div class="col-md-5 text-justify">
+          <p class="text-justify">
+            <p>Dulu saat sekolah saya juga aktif sebagai anggota OSIS, mengikuti Ekskul Pramuka, Rohis, dan Marching Band. Dan Saat ini saya aktif sebagai anggota Senat Mahasiswa di Fakultas Sains dan Teknologi. Beberapa hal yang saya sukai yaitu membaca buku, menonton film/anime, traveling, mendengarkan musik, dan bernyanyi.</p>
           </div>
         </div>
       </div>
     </section>
+
 
     <!-- Youtube & Instagram -->
      <section class="social bg-light" id="social">
@@ -190,7 +203,7 @@ $gambar3 = $resultGambar3['media_url'];
             <div class="card">
               <img class="card-img-top" src="img/thumbs/1.png" alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <p class="card-text">Latihan menggunakan.</p>
               </div>
             </div>
           </div>
